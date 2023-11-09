@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projet-SGBD/static/css/main.f855e6bc.css",
+    "main.js": "/projet-SGBD/static/js/main.19c02a3c.js",
+    "static/js/787.8db51036.chunk.js": "/projet-SGBD/static/js/787.8db51036.chunk.js",
+    "static/media/logo.svg": "/projet-SGBD/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projet-SGBD/index.html",
+    "main.f855e6bc.css.map": "/projet-SGBD/static/css/main.f855e6bc.css.map",
+    "main.19c02a3c.js.map": "/projet-SGBD/static/js/main.19c02a3c.js.map",
+    "787.8db51036.chunk.js.map": "/projet-SGBD/static/js/787.8db51036.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.19c02a3c.js"
+  ]
+}
