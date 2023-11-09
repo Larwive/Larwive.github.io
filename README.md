@@ -2,13 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Edit the project
+
+Run npm install after cloning the project.
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm run deploy`
 
-Deploys the app on https://larwive.github.io
+Deploys the app on https://larwive.github.io.
 
 ### `npm start`
 
