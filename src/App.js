@@ -3,7 +3,7 @@ import './App.css';
 
 
 // Assuming your Node.js server is hosted on Heroku
-const apiUrl = 'https://intense-depths-20444-c1e4653348f9.herokuapp.com'; // Replace with your actual Heroku app name
+const apiUrl = 'https://kindhearted-lava-giver.glitch.me'; // Replace with your actual Heroku app name
 
 
 const postQuery = {
