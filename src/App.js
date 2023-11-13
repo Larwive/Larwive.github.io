@@ -5,7 +5,21 @@ import './App.css';
 // Assuming your Node.js server is hosted on Heroku
 const apiUrl = 'https://intense-depths-20444-c1e4653348f9.herokuapp.com'; // Replace with your actual Heroku app name
 
-fetch(`${apiUrl}/api/data`)
+
+const postQuery = {
+    queryType: "SELECT",
+    fetching: "*",
+    table: "FROM constructeurs"
+}
+
+
+fetch(`${apiUrl}/api/data`, {
+    method: 'POST',
+        headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(postQuery),
+})
     .then((response) => response.json())
     .then((data) => {
         console.log(data);
@@ -22,7 +36,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. Et ouais.
+          Edit <code>src/App.js</code> and save to reload. Et ouais. larwive-requests
         </p>
         <anpm
           className="App-link"
