@@ -1,0 +1,124 @@
+.insertion-client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion-client-data {
+    display: flex;
+    gap: 20px;
+
+    margin: 20px 0px 20px 0px;
+
+}
+
+.insertion-client-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.insertion-client-data > :nth-child(5), .insertion-client-data > :nth-child(3) {
+    min-width: 300px;
+}
+
+.insertion-client-data > :nth-child(7) {
+
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-client-data > :nth-child(7):hover  {
+    background: green;
+    color: white;
+}
+
+.insertion-client-title {
+    color: white;
+}
+
+.insertion-vehicule {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion-vehicule-data {
+    display: flex;
+    gap: 20px;
+
+    margin: 20px 0px 20px 0px;
+
+}
+
+.insertion-vehicule-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+
+.insertion-vehicule-data > :nth-child(6) {
+
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-vehicule-data > :nth-child(6):hover  {
+    background: green;
+    color: white;
+}
+
+.insertion-vehicule-title {
+    color: white;
+}
+
+.insertion-bill {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion-bill-data {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.insertion-bill-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+
+.insertion-bill-data > :nth-child(5) {
+
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-bill-data > :nth-child(5):hover  {
+    background: green;
+    color: white;
+}
+
+.insertion-bill-title {
+    color: white;
+}

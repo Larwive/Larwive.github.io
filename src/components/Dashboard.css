@@ -1,0 +1,13 @@
+.dashboard {
+    min-height: 100vh;
+    background-color: #1c1917;
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-stats {
+    display: flex;
+    gap: 50px;
+}
