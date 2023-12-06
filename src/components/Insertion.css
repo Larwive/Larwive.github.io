@@ -1,0 +1,136 @@
+.insertion-client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.insertion {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion-client-data {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion-client-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.insertion-client-data > :nth-child(5), .insertion-client-data > :nth-child(3) {
+    max-width: 300px;
+}
+
+.insertion-client-data > :nth-child(7) {
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-client-data > :nth-child(7):hover  {
+    background: green;
+    color: white;
+}
+
+
+.insertion-vehicule {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion-vehicule-data {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion-vehicule-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+    max-width: 300px;
+}
+
+
+.insertion-vehicule-data > :nth-child(6) {
+
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-vehicule-data > :nth-child(6):hover  {
+    background: green;
+    color: white;
+}
+
+.insertion-title {
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+.insertion-bill {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.insertion-bill-data {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion-bill-data > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+    max-width: 300px;
+}
+
+
+.insertion-bill-data > :nth-child(5) {
+
+    margin-left: auto;
+    padding: 6px 10px 6px 10px;
+    font-weight: 500;
+}
+
+.insertion-bill-data > :nth-child(5):hover  {
+    background: green;
+    color: white;
+}
+
+
+.request-categorie {
+    margin: 20px 0px 20px 0px;
+}
