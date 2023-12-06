@@ -16,21 +16,20 @@
 }
 
 .request-button {
-    padding: 10px;
     background-color: #292524;
     border-style: none;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 10px #0c0a10;
     color: white;
     cursor: pointer;
-    width: 200px;
-}
-
-.request-buttons {
-    display: flex;
-    gap: 20px;
+    padding: 6px 10px 6px 10px;
 }
 
 .request-categorie {
     font-weight: 600;
+}
+
+.inputs {
+    display: flex;
+    gap: 20px;
 }

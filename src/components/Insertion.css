@@ -4,12 +4,29 @@
     margin-top: 50px;
 }
 
+.insertion {
+    display: flex;
+    gap: 20px;
+}
+
+.insertion > * {
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 300ms;
+    transition: all 300ms ease-out;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.insertion {
+    display: flex;
+    gap: 20px;
+}
+
 .insertion-client-data {
     display: flex;
     gap: 20px;
-
-    margin: 20px 0px 20px 0px;
-
 }
 
 .insertion-client-data > * {
@@ -23,11 +40,10 @@
 }
 
 .insertion-client-data > :nth-child(5), .insertion-client-data > :nth-child(3) {
-    min-width: 300px;
+    max-width: 300px;
 }
 
 .insertion-client-data > :nth-child(7) {
-
     margin-left: auto;
     padding: 6px 10px 6px 10px;
     font-weight: 500;
@@ -38,9 +54,6 @@
     color: white;
 }
 
-.insertion-client-title {
-    color: white;
-}
 
 .insertion-vehicule {
     display: flex;
@@ -51,9 +64,6 @@
 .insertion-vehicule-data {
     display: flex;
     gap: 20px;
-
-    margin: 20px 0px 20px 0px;
-
 }
 
 .insertion-vehicule-data > * {
@@ -64,6 +74,7 @@
     transition: all 300ms ease-out;
     -webkit-appearance: none;
     outline: 0;
+    max-width: 300px;
 }
 
 
@@ -79,8 +90,9 @@
     color: white;
 }
 
-.insertion-vehicule-title {
+.insertion-title {
     color: white;
+    margin: 20px 0px 20px 0px;
 }
 
 .insertion-bill {
@@ -92,8 +104,6 @@
 .insertion-bill-data {
     display: flex;
     gap: 20px;
-    margin: 20px 0px 20px 0px;
-
 }
 
 .insertion-bill-data > * {
@@ -104,6 +114,7 @@
     transition: all 300ms ease-out;
     -webkit-appearance: none;
     outline: 0;
+    max-width: 300px;
 }
 
 
@@ -119,6 +130,7 @@
     color: white;
 }
 
-.insertion-bill-title {
-    color: white;
+
+.request-categorie {
+    margin: 20px 0px 20px 0px;
 }
