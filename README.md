@@ -1,3 +1,8 @@
+Archived as of 21/06/2024.
+Originally hosted on github Pages.
+The project was completed a few months ago and the online SQL database host will soon be out of service.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
